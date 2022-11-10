@@ -25,7 +25,7 @@ public class Helper_method {
         while (!sort) {
             sort = true;
             for (int i = 0; i < array.length; i++) {
-                for (int j = 1; j < array.length; j++) {
+                for (int j = 1; j < array[i].length; j++) {
                     if (array[i][j] < array[i][j - 1]) {
                         sort = false;
                         buf = array[i][j];
