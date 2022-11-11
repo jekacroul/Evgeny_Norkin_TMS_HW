@@ -1,8 +1,11 @@
-import lesson_6.CreditCard;
+package lesson_6;
 
-public class Main {
+import java.util.Scanner;
+
+public class lesson_6_1 {
     public static void main(String[] args) {
 
         CreditCard creditCard = new CreditCard();
+
     }
 }
