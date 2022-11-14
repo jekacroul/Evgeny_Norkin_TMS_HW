@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="28a4185e-a814-46cf-8f60-80acce358aa3" name="Changes" comment="Fix sort!">
+    <list default="true" id="28a4185e-a814-46cf-8f60-80acce358aa3" name="Changes" comment="v.1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Evgeny_Norkin_TMS_HW/Helper/Helper_method.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Evgeny_Norkin_TMS_HW/Helper/Helper_method.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Evgeny_Norkin_TMS_HW/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Evgeny_Norkin_TMS_HW/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Evgeny_Norkin_TMS_HW/lesson_4/lesson_4_3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Evgeny_Norkin_TMS_HW/lesson_4/lesson_4_3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Evgeny_Norkin_TMS_HW/lesson_6/CreditCard.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Evgeny_Norkin_TMS_HW/lesson_6/CreditCard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Evgeny_Norkin_TMS_HW/lesson_6/lesson_6_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Evgeny_Norkin_TMS_HW/lesson_6/lesson_6_1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson_4/lesson_4_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson_4/lesson_4_3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson_6/CreditCard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson_6/lesson_6_1.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,20 +45,39 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.lesson_6_1">
+  <component name="RunManager" selected="Application.Lesson_6_v2.Main">
+    <configuration name="Lesson_6_v2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson_6_v2.Main" />
+      <module name="Evgeny_Norkin_TMS_HW" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson_6_v2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lesson_6_v3.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson_6_v3.Main" />
+      <module name="Evgeny_Norkin_TMS_HW" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson_6_v3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Evgeny_Norkin_TMS_HW" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="lesson_5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson_5.task_0.lesson_5" />
+      <option name="MAIN_CLASS_NAME" value="Lesson_6_2.Main" />
       <module name="Evgeny_Norkin_TMS_HW" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson_5.task_0.*" />
+          <option name="PATTERN" value="Lesson_6_2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -63,25 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lesson_5_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson_5.task_3.lesson_5_3" />
+    <configuration name="lesson_4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson_4.lesson_4" />
       <module name="Evgeny_Norkin_TMS_HW" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson_5.task_3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="lesson_5_4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson_5.task_4.lesson_5_4" />
-      <module name="Evgeny_Norkin_TMS_HW" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lesson_5.task_4.*" />
+          <option name="PATTERN" value="lesson_4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.lesson_6_1" />
+        <item itemvalue="Application.Lesson_6_v2.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.lesson_5_4" />
-        <item itemvalue="Application.lesson_5" />
-        <item itemvalue="Application.lesson_5_3" />
+        <item itemvalue="Application.Lesson_6_v3.Main" />
+        <item itemvalue="Application.lesson_6_1" />
+        <item itemvalue="Application.lesson_4" />
       </list>
     </recent_temporary>
   </component>
@@ -123,7 +132,21 @@
       <workItem from="1668111381508" duration="198000" />
       <workItem from="1668111912946" duration="2826000" />
       <workItem from="1668178155298" duration="13870000" />
-      <workItem from="1668208044396" duration="841000" />
+      <workItem from="1668208044396" duration="2601000" />
+      <workItem from="1668210676695" duration="1057000" />
+      <workItem from="1668247523461" duration="5049000" />
+      <workItem from="1668258199453" duration="1989000" />
+      <workItem from="1668281669587" duration="8909000" />
+      <workItem from="1668299909873" duration="929000" />
+      <workItem from="1668336621340" duration="13057000" />
+      <workItem from="1668349790598" duration="26000" />
+      <workItem from="1668350956227" duration="5030000" />
+      <workItem from="1668357394916" duration="306000" />
+      <workItem from="1668357877970" duration="228000" />
+      <workItem from="1668358228081" duration="3167000" />
+      <workItem from="1668368409993" duration="346000" />
+      <workItem from="1668407018109" duration="279000" />
+      <workItem from="1668440342769" duration="6417000" />
     </task>
     <task id="LOCAL-00001" summary="Fix sort!">
       <created>1668112648603</created>
@@ -132,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668112648603</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="v.1">
+      <created>1668209057669</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1668209057669</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,6 +181,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Fix sort!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix sort!" />
+    <MESSAGE value="v.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="v.1" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="ram.memorySize" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
