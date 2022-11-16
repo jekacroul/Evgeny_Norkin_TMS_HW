@@ -1,18 +1,21 @@
-package lesson_4;
+package Lesson_4;
 
 import java.util.Arrays;
+import java.util.Random;
 import java.util.Scanner;
 
 public class lesson_4_3 {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
+        Random ran = new Random();
 
         System.out.print("Введите длинну первого массива: ");
         int x = scanner.nextInt();
         int array[] = new int[x];
         for (int i = 0; i < array.length; i++) {
-            array[i] = (int) (Math.random() * 10 ) + 1;
+            array[i] = (int) ((Math.random() * 10 ) + 1);
+            array[i] = ran.nextInt(50);
 
         }
         System.out.print("Введите длинну второго массива: ");
