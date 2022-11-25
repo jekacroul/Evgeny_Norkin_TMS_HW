@@ -39,5 +39,6 @@ public class Main {
         phone.saveContact(contact2);
         phone.sendMessage("Hello world!", contact, contact1, contact2);
         phone.receiveCall("Евгений", "+375291325648");
+        phone.receiveCall("Антон", "+375294355648");
     }
 }

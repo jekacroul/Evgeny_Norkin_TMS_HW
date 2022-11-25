@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="28a4185e-a814-46cf-8f60-80acce358aa3" name="Changes" comment="v.1">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_16_11_2022_12_31__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_16_11_2022_12_31__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_16_11_2022_12_31__Changes_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_16_11_2022_12_31__Changes_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_16_11_2022_14_07__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_16_11_2022_14_07__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" afterDir="false" />
+    <list default="true" id="28a4185e-a814-46cf-8f60-80acce358aa3" name="Changes" comment="All HW done.">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_16_11_2022_12_31_[Changes]1/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_16_11_2022_12_31_[Changes]1/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_16_11_2022_12_31__Changes_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_16_11_2022_14_07_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_16_11_2022_14_07__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Evgeny_Norkin_TMS_HW/Lesson_6_2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Evgeny_Norkin_TMS_HW/Lesson_6_2/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Evgeny_Norkin_TMS_HW/Lesson_6_v2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Evgeny_Norkin_TMS_HW/Lesson_6_v2/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Evgeny_Norkin_TMS_HW/Lesson_7/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Evgeny_Norkin_TMS_HW/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Evgeny_Norkin_TMS_HW/lesson_6/CreditCard.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Evgeny_Norkin_TMS_HW/lesson_6/lesson_6_1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Evgeny_Norkin_TMS_HW/Lesson_8/task_1/Contact/Contact.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Evgeny_Norkin_TMS_HW/Lesson_8/task_1/Contact/Contact.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Evgeny_Norkin_TMS_HW/Lesson_8/task_1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Evgeny_Norkin_TMS_HW/Lesson_8/task_1/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Evgeny_Norkin_TMS_HW/Lesson_8/task_1/Phone/Phone.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Evgeny_Norkin_TMS_HW/Lesson_8/task_1/Phone/Phone.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson_8/task_1/Contact/Contact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson_8/task_1/Contact/Contact.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson_8/task_1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson_8/task_1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson_8/task_1/Phone/Phone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson_8/task_1/Phone/Phone.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,29 +49,23 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/norki/IdeaProjects/Evgeny_Norkin_TMS_HW/src/Lesson_8/task8_V2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Lesson_8.task_2.Main">
-    <configuration name="Lesson_6_v2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson_6_v2.Main" />
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\norki\IdeaProjects\Evgeny_Norkin_TMS_HW\src\Lesson_8\task8_V2" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Lesson_8.task8_V2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson_8.task8_V2.Main" />
       <module name="Evgeny_Norkin_TMS_HW" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson_6_v2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Lesson_6_v3.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson_6_v3.Main" />
-      <module name="Evgeny_Norkin_TMS_HW" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lesson_6_v3.*" />
+          <option name="PATTERN" value="Lesson_8.task8_V2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,11 +100,24 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson_6_2.Main" />
+      <option name="MAIN_CLASS_NAME" value="Lesson_8_dop.Main" />
       <module name="Evgeny_Norkin_TMS_HW" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson_6_2.*" />
+          <option name="PATTERN" value="Lesson_8_dop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lesson_5_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson_5.task_3.lesson_5_3" />
+      <module name="Evgeny_Norkin_TMS_HW" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson_5.task_3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Lesson_8.task_2.Main" />
-        <item itemvalue="Application.Lesson_8.task_1.Main" />
-        <item itemvalue="Application.Lesson_6_v2.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Lesson_6_v3.Main" />
+        <item itemvalue="Application.Lesson_8.task_1.Main" />
+        <item itemvalue="Application.Lesson_8.task_2.Main" />
+        <item itemvalue="Application.Lesson_8.task8_V2.Main" />
+        <item itemvalue="Application.lesson_5_3" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +164,16 @@
       <workItem from="1668789076489" duration="5442000" />
       <workItem from="1668805605887" duration="266000" />
       <workItem from="1668867877128" duration="8697000" />
-      <workItem from="1668885311147" duration="318000" />
+      <workItem from="1668885311147" duration="4331000" />
+      <workItem from="1668938106768" duration="368000" />
+      <workItem from="1669015234749" duration="855000" />
+      <workItem from="1669129299630" duration="2376000" />
+      <workItem from="1669195585111" duration="12027000" />
+      <workItem from="1669220630053" duration="13574000" />
+      <workItem from="1669303371207" duration="820000" />
+      <workItem from="1669373585688" duration="5093000" />
+      <workItem from="1669378802593" duration="262000" />
+      <workItem from="1669379075689" duration="2316000" />
     </task>
     <task id="LOCAL-00001" summary="Fix sort!">
       <created>1668112648603</created>
@@ -171,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668209057669</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="All HW done.">
+      <created>1668885944219</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1668885944219</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,6 +216,17 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Fix sort!" />
     <MESSAGE value="v.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="v.1" />
+    <MESSAGE value="All HW done." />
+    <option name="LAST_COMMIT_MESSAGE" value="All HW done." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

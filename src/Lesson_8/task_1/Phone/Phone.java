@@ -31,9 +31,10 @@ public class Phone {
     }
     public void receiveCall(String name, String number){
         for (int i = 0; i < contact.length; i++) {
-            if (contact[i] != null)
-            System.out.println(contact[i]);
-            break;
+            if (contact[i].getContactName().toLowerCase().equals(name.toLowerCase()) &&  contact[i].getContactNumber().
+                    toLowerCase().equals(number.toLowerCase())){
+                System.out.println(contact[i]);
+            }
         }
     }
     public void saveContact(Contact contact) {
