@@ -1,21 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="28a4185e-a814-46cf-8f60-80acce358aa3" name="Changes" comment="All HW done.">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_16_11_2022_12_31_[Changes]1/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_16_11_2022_12_31_[Changes]1/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_16_11_2022_12_31__Changes_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_16_11_2022_14_07_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_16_11_2022_14_07__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" />
+    <list default="true" id="28a4185e-a814-46cf-8f60-80acce358aa3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_16_11_2022_12_31__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_16_11_2022_12_31__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Evgeny_Norkin_TMS_HW/Lesson_8/task_1/Contact/Contact.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Evgeny_Norkin_TMS_HW/Lesson_8/task_1/Contact/Contact.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Evgeny_Norkin_TMS_HW/Lesson_8/task_1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Evgeny_Norkin_TMS_HW/Lesson_8/task_1/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Evgeny_Norkin_TMS_HW/Lesson_8/task_1/Phone/Phone.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Evgeny_Norkin_TMS_HW/Lesson_8/task_1/Phone/Phone.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_8/task_1/Contact/Contact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson_8/task_1/Contact/Contact.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_8/task_1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson_8/task_1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_8/task_1/Phone/Phone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson_8/task_1/Phone/Phone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Evgeny_Norkin_TMS_HW/Lesson_8_dop/universitet/Prepod.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Evgeny_Norkin_TMS_HW/Lesson_8_dop/universitet/Prepod.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,11 +19,6 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="master" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -49,57 +33,12 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/norki/IdeaProjects/Evgeny_Norkin_TMS_HW/src/Lesson_8/task8_V2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
 }</component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\norki\IdeaProjects\Evgeny_Norkin_TMS_HW\src\Lesson_8\task8_V2" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Lesson_8.task8_V2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson_8.task8_V2.Main" />
-      <module name="Evgeny_Norkin_TMS_HW" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lesson_8.task8_V2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Lesson_8.task_1.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson_8.task_1.Main" />
-      <module name="Evgeny_Norkin_TMS_HW" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lesson_8.task_1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Lesson_8.task_2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson_8.task_2.Main" />
-      <module name="Evgeny_Norkin_TMS_HW" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lesson_8.task_2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Test.Main">
+    <configuration name="Lesson_8_dop.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lesson_8_dop.Main" />
       <module name="Evgeny_Norkin_TMS_HW" />
       <extension name="coverage">
@@ -112,12 +51,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lesson_5_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson_5.task_3.lesson_5_3" />
+    <configuration name="Lesson_9.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson_9.Main" />
       <module name="Evgeny_Norkin_TMS_HW" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson_5.task_3.*" />
+          <option name="PATTERN" value="Lesson_9.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson_10.Main" />
+      <module name="Evgeny_Norkin_TMS_HW" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson_10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test.Main" />
+      <module name="Evgeny_Norkin_TMS_HW" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Work" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson_10.Work" />
+      <module name="Evgeny_Norkin_TMS_HW" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson_10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +105,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Lesson_8.task_1.Main" />
-        <item itemvalue="Application.Lesson_8.task_2.Main" />
-        <item itemvalue="Application.Lesson_8.task8_V2.Main" />
-        <item itemvalue="Application.lesson_5_3" />
+        <item itemvalue="Application.Work" />
+        <item itemvalue="Application.Lesson_8_dop.Main" />
+        <item itemvalue="Application.Lesson_9.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -144,59 +122,12 @@
       <option name="presentableId" value="Default" />
       <updated>1668111380361</updated>
       <workItem from="1668111381508" duration="198000" />
-      <workItem from="1668111912946" duration="2826000" />
-      <workItem from="1668178155298" duration="13870000" />
-      <workItem from="1668208044396" duration="2601000" />
-      <workItem from="1668210676695" duration="1057000" />
-      <workItem from="1668247523461" duration="5049000" />
-      <workItem from="1668258199453" duration="1989000" />
-      <workItem from="1668281669587" duration="8909000" />
-      <workItem from="1668299909873" duration="929000" />
-      <workItem from="1668336621340" duration="13057000" />
-      <workItem from="1668349790598" duration="26000" />
-      <workItem from="1668350956227" duration="5030000" />
-      <workItem from="1668357394916" duration="306000" />
-      <workItem from="1668357877970" duration="228000" />
-      <workItem from="1668358228081" duration="3167000" />
-      <workItem from="1668368409993" duration="346000" />
-      <workItem from="1668407018109" duration="279000" />
-      <workItem from="1668440342769" duration="6417000" />
-      <workItem from="1668789076489" duration="5442000" />
-      <workItem from="1668805605887" duration="266000" />
-      <workItem from="1668867877128" duration="8697000" />
-      <workItem from="1668885311147" duration="4331000" />
-      <workItem from="1668938106768" duration="368000" />
-      <workItem from="1669015234749" duration="855000" />
-      <workItem from="1669129299630" duration="2376000" />
-      <workItem from="1669195585111" duration="12027000" />
-      <workItem from="1669220630053" duration="13574000" />
-      <workItem from="1669303371207" duration="820000" />
-      <workItem from="1669373585688" duration="5093000" />
-      <workItem from="1669378802593" duration="262000" />
-      <workItem from="1669379075689" duration="2316000" />
+      <workItem from="1668111912946" duration="677000" />
+      <workItem from="1670164023976" duration="1250000" />
+      <workItem from="1670165382015" duration="13122000" />
+      <workItem from="1670234787891" duration="1163000" />
+      <workItem from="1670235969182" duration="25631000" />
     </task>
-    <task id="LOCAL-00001" summary="Fix sort!">
-      <created>1668112648603</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1668112648603</updated>
-    </task>
-    <task id="LOCAL-00002" summary="v.1">
-      <created>1668209057669</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1668209057669</updated>
-    </task>
-    <task id="LOCAL-00003" summary="All HW done.">
-      <created>1668885944219</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1668885944219</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,21 +143,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fix sort!" />
-    <MESSAGE value="v.1" />
-    <MESSAGE value="All HW done." />
-    <option name="LAST_COMMIT_MESSAGE" value="All HW done." />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <breakpoint enabled="true" type="java-exception">
-          <properties class="java.lang.NullPointerException" package="java.lang" />
-          <option name="timeStamp" value="1" />
-        </breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
