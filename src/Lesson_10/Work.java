@@ -52,28 +52,41 @@ public class Work {
         System.out.println("Letters: " + stringBuilder);
     }
 
-    public static boolean findCharsABC(Stroka stroka) {
+//    public static boolean findCharsABC(Stroka stroka) throws AbcContainsExeption {
+//
+//        String str1[] = stroka.string.split("-");
+//        for (int i = 0; i < str1.length; i++) {
+//            if (str1[i].contains("ABC") || str1[i].contains("abc")) {
+//                return true;
+//            }
+//        }
+//        return false;
+////        throw new AbcContainsExeption("Ошибка нахождения");
+//    }
+
+    public static boolean findCharsABC(Stroka stroka) throws AbcContainsExeption {
+
         String str1[] = stroka.string.split("-");
         for (int i = 0; i < str1.length; i++) {
             if (str1[i].contains("ABC") || str1[i].contains("abc")) {
                 return true;
             }
         }
-        return false;
+        throw new AbcContainsExeption("Ошибка нахождения последовательности ABC");
     }
 
-    public static boolean checkFirstBlock(Stroka stroka){
+    public static boolean checkFirstBlock(Stroka stroka) throws Contains555Exeption {
        if (stroka.string.startsWith("555")){
            return true;
        }
-       return false;
+       throw new Contains555Exeption("Ошибка поиска последовательности 555");
     }
 
-    public static boolean checkEndBlock(Stroka stroka){
-        if (stroka.string.endsWith("1a2bb")){
+    public static boolean checkEndBlock(Stroka stroka) throws Contains1a2bExeption {
+        if (stroka.string.endsWith("1a2b")){
             return true;
         }
-        return false;
+        throw new Contains1a2bExeption("Ошибка поиска последовательности 1a2b");
     }
 
     public static void charsDouble(Stroka stroka){
