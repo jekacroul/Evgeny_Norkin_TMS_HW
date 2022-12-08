@@ -28,28 +28,41 @@ TeachMeSkills.by
 public class Main {
     public static void main(String[] args) {
 
-        Stroka stroka = new Stroka("14H8-ABBA-7896-MJF-584F");
+        Stroka stroka = new Stroka("14H8-ABBC-7896-MJF-584F");
 
-        Work.split(stroka);
-        System.out.println();
-        Work.charToDisplay(stroka);
-        System.out.println();
-        Work.charsToLowerCase(stroka);
-        System.out.println();
-        Work.charsToUpperCase(stroka);
-        System.out.println();
-        System.out.println("Результат поиска последовательности ABC: " + Work.findCharsABC(stroka));
-        System.out.println("Результат проверки начала документа на последовательность 555: " + Work.checkFirstBlock(stroka));
-        System.out.println("Результат проверки конца документа на последовательность 1a2b: " + Work.checkEndBlock(stroka));
-        System.out.println();
-        Work.charsDouble(stroka);
-        System.out.println();
-        Work.findMinLenght(stroka);
-        System.out.println();
-        Work.findMaxLenght(stroka);
-        System.out.println();
-        Work.findWord(stroka);
-        System.out.println();
-        System.out.println(Work.isPalindrome(stroka));
+//        Work.split(stroka);
+//        System.out.println();
+//        Work.charToDisplay(stroka);
+//        System.out.println();
+//        Work.charsToLowerCase(stroka);
+//        System.out.println();
+//        Work.charsToUpperCase(stroka);
+//        System.out.println();
+        try {
+            System.out.println("Результат поиска последовательности ABC: " + Work.findCharsABC(stroka));
+        } catch (AbcContainsExeption e) {
+            System.out.println(e);
+        }
+        try {
+            System.out.println("Результат проверки начала документа на последовательность 555: " + Work.checkFirstBlock(stroka));
+        } catch (Contains555Exeption ex){
+            System.out.println(ex);
+        }
+       try {
+           System.out.println("Результат проверки конца документа на последовательность 1a2b: " + Work.checkEndBlock(stroka));
+       } catch (Contains1a2bExeption ex){
+           System.out.println(ex);
+       }
+//
+//        System.out.println();
+//        Work.charsDouble(stroka);
+//        System.out.println();
+//        Work.findMinLenght(stroka);
+//        System.out.println();
+//        Work.findMaxLenght(stroka);
+//        System.out.println();
+//        Work.findWord(stroka);
+//        System.out.println();
+//        System.out.println(Work.isPalindrome(stroka));
     }
 }
