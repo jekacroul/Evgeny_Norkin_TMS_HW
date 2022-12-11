@@ -1,0 +1,76 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"28a4185e-a814-46cf-8f60-80acce358aa3\" name=\"Changes\" comment=\"HW Done.\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/out/production/Evgeny_Norkin_TMS_HW/Lesson_10/Main.class\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/out/production/Evgeny_Norkin_TMS_HW/Lesson_10/Main.class\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/out/production/Evgeny_Norkin_TMS_HW/Lesson_10/Work.class\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/out/production/Evgeny_Norkin_TMS_HW/Lesson_10/Work.class\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/Lesson_10/Main.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Lesson_10/Main.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/Lesson_10/Work.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Lesson_10/Work.java\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2HN2mbzyA125ZNN5NOKOZhOIpyi\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,\r\n    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,\r\n    &quot;last_opened_file_path&quot;: &quot;C:/Users/norki/IdeaProjects/Evgeny_Norkin_TMS_HW/src&quot;,\r\n    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,\r\n    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;\r\n  }\r\n}</component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\norki\\IdeaProjects\\Evgeny_Norkin_TMS_HW\\src\\\" />\r\n      <recent name=\"C:\\Users\\norki\\IdeaProjects\\Evgeny_Norkin_TMS_HW\\src\\Lesson_10\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"Application.Lesson_10_dop.Main\">\r\n    <configuration name=\"Lesson_10_dop.Main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"Lesson_10_dop.Main\" />\r\n      <module name=\"Evgeny_Norkin_TMS_HW\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"Lesson_10_dop.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Lesson_8_dop.Main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"Lesson_8_dop.Main\" />\r\n      <module name=\"Evgeny_Norkin_TMS_HW\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"Lesson_8_dop.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"Lesson_10.Main\" />\r\n      <module name=\"Evgeny_Norkin_TMS_HW\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"Lesson_10.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Test.Main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"Test.Main\" />\r\n      <module name=\"Evgeny_Norkin_TMS_HW\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"Test.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Work\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"Lesson_10.Work\" />\r\n      <module name=\"Evgeny_Norkin_TMS_HW\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"Lesson_10.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Application.Lesson_10_dop.Main\" />\r\n        <item itemvalue=\"Application.Main\" />\r\n        <item itemvalue=\"Application.Test.Main\" />\r\n        <item itemvalue=\"Application.Work\" />\r\n        <item itemvalue=\"Application.Lesson_8_dop.Main\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"28a4185e-a814-46cf-8f60-80acce358aa3\" name=\"Changes\" comment=\"\" />\r\n      <created>1668111380361</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1668111380361</updated>\r\n      <workItem from=\"1668111381508\" duration=\"198000\" />\r\n      <workItem from=\"1668111912946\" duration=\"677000\" />\r\n      <workItem from=\"1670164023976\" duration=\"1250000\" />\r\n      <workItem from=\"1670165382015\" duration=\"13122000\" />\r\n      <workItem from=\"1670234787891\" duration=\"1163000\" />\r\n      <workItem from=\"1670235969182\" duration=\"28459000\" />\r\n      <workItem from=\"1670265316471\" duration=\"54000\" />\r\n      <workItem from=\"1670265379952\" duration=\"1645000\" />\r\n      <workItem from=\"1670267322922\" duration=\"340000\" />\r\n      <workItem from=\"1670301212865\" duration=\"3556000\" />\r\n      <workItem from=\"1670312037089\" duration=\"439000\" />\r\n      <workItem from=\"1670324979812\" duration=\"11085000\" />\r\n      <workItem from=\"1670406772040\" duration=\"10387000\" />\r\n      <workItem from=\"1670480066495\" duration=\"1973000\" />\r\n      <workItem from=\"1670482073776\" duration=\"5316000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"HW Done.\">\r\n      <created>1670262313510</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1670262313510</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"2\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"HW Done.\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"HW Done.\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -7,9 +7,10 @@
+     <list default="true" id="28a4185e-a814-46cf-8f60-80acce358aa3" name="Changes" comment="HW Done.">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/out/production/Evgeny_Norkin_TMS_HW/Lesson_10/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Evgeny_Norkin_TMS_HW/Lesson_10/Main.class" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/out/production/Evgeny_Norkin_TMS_HW/Lesson_10/Work.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Evgeny_Norkin_TMS_HW/Lesson_10/Work.class" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/src/Lesson_10/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson_10/Main.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/Lesson_10/Work.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson_10/Work.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/Lesson_10_dop/Authorization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson_10_dop/Authorization.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/Lesson_10_dop/Credits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson_10_dop/Credits.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/Test/Logic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/Logic.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -55,7 +56,7 @@
+       <recent name="C:\Users\norki\IdeaProjects\Evgeny_Norkin_TMS_HW\src\Lesson_10" />
+     </key>
+   </component>
+-  <component name="RunManager" selected="Application.Lesson_10_dop.Main">
++  <component name="RunManager" selected="Application.Test.Main">
+     <configuration name="Lesson_10_dop.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+       <option name="MAIN_CLASS_NAME" value="Lesson_10_dop.Main" />
+       <module name="Evgeny_Norkin_TMS_HW" />
+@@ -123,9 +124,9 @@
+     </configuration>
+     <recent_temporary>
+       <list>
++        <item itemvalue="Application.Test.Main" />
+         <item itemvalue="Application.Lesson_10_dop.Main" />
+         <item itemvalue="Application.Main" />
+-        <item itemvalue="Application.Test.Main" />
+         <item itemvalue="Application.Work" />
+         <item itemvalue="Application.Lesson_8_dop.Main" />
+       </list>
+@@ -153,7 +154,8 @@
+       <workItem from="1670324979812" duration="11085000" />
+       <workItem from="1670406772040" duration="10387000" />
+       <workItem from="1670480066495" duration="1973000" />
+-      <workItem from="1670482073776" duration="5316000" />
++      <workItem from="1670482073776" duration="12524000" />
++      <workItem from="1670511330518" duration="990000" />
+     </task>
+     <task id="LOCAL-00001" summary="HW Done.">
+       <created>1670262313510</created>
+@@ -162,7 +164,21 @@
+       <option name="project" value="LOCAL" />
+       <updated>1670262313510</updated>
+     </task>
+-    <option name="localTasksCounter" value="2" />
++    <task id="LOCAL-00002" summary="HW Done.">
++      <created>1670488442855</created>
++      <option name="number" value="00002" />
++      <option name="presentableId" value="LOCAL-00002" />
++      <option name="project" value="LOCAL" />
++      <updated>1670488442855</updated>
++    </task>
++    <task id="LOCAL-00003" summary="HW Done.">
++      <created>1670488445574</created>
++      <option name="number" value="00003" />
++      <option name="presentableId" value="LOCAL-00003" />
++      <option name="project" value="LOCAL" />
++      <updated>1670488445574</updated>
++    </task>
++    <option name="localTasksCounter" value="4" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">

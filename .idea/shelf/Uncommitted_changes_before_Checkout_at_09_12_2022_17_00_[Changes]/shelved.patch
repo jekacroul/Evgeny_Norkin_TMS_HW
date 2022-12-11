@@ -1,0 +1,146 @@
+Index: src/Lesson_10_dop/Authorization.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package Lesson_10_dop;\r\n\r\n/*\r\n2. Создать класс, в котором будет статический метод.\r\n(почитать и понять, чем статический метод отличается от нестатического - обсудить на занятии по необходимости)\r\nЭтот метод принимает на вход три параметра:\r\nLogin,\r\nPassword,\r\nconfirmPassword.\r\nВсе поля имеют тип данных String.\r\nДлина login должна быть меньше 20 символов и не должен содержать пробелы.\r\nЕсли login не соответствует этим требованиям, необходимо выбросить WrongLoginException.\r\nДлина password должна быть меньше 20 символов, не должен содержать пробелом и должен содержать хотя бы одну цифру.\r\nТакже password и confirmPassword должны быть равны.\r\nЕсли password не соответствует этим требованиям, необходимо выбросить WrongPasswordException.\r\nWrongPasswordException и WrongLoginException - пользовательские классы исключения с двумя конструкторами\r\n– один по умолчанию, второй принимает сообщение исключения и передает его в конструктор класса Exception.\r\nМетод возвращает true, если значения верны или false в другом случае.\r\n */\r\npublic class Authorization {\r\n    public static boolean userLoginCheck(Credits credits) throws WrongLoginException{\r\n        if (credits.login.length() > 20 || credits.login.contains(\" \")){\r\n            throw new WrongLoginException(\"Длина login должна быть меньше 20 символов и не должен содержать пробелы\");\r\n        }\r\n        return true;\r\n    }\r\n    public static boolean userPasswordCheck(Credits credits) throws WrongPasswordException{\r\n        boolean isDigitHave = false;\r\n        for (int i = 0; i < credits.password.length(); i++) {\r\n            if (Character.isDigit(credits.password.charAt(i))){\r\n                isDigitHave = true;\r\n            }\r\n        }\r\n        if (credits.password.length() > 20 || credits.password.contains(\" \") || !credits.password.equals(credits.confirmPassword) || !isDigitHave){\r\n            throw new WrongPasswordException(\"Длина password должна быть меньше 20 символов, не должен содержать пробелом и должен содержать хотя бы одну цифру.\\n\" +\r\n                    \"Также password и confirmPassword должны быть равны.\");\r\n        }\r\n        return true;\r\n    }\r\n}\r\n
+===================================================================
+diff --git a/src/Lesson_10_dop/Authorization.java b/src/Lesson_10_dop/Authorization.java
+--- a/src/Lesson_10_dop/Authorization.java	
++++ b/src/Lesson_10_dop/Authorization.java	
+@@ -27,12 +27,14 @@
+     public static boolean userPasswordCheck(Credits credits) throws WrongPasswordException{
+         boolean isDigitHave = false;
+         for (int i = 0; i < credits.password.length(); i++) {
+-            if (Character.isDigit(credits.password.charAt(i))){
++            if (Character.isDigit(credits.password.charAt(i))) {
+                 isDigitHave = true;
+             }
+         }
+-        if (credits.password.length() > 20 || credits.password.contains(" ") || !credits.password.equals(credits.confirmPassword) || !isDigitHave){
+-            throw new WrongPasswordException("Длина password должна быть меньше 20 символов, не должен содержать пробелом и должен содержать хотя бы одну цифру.\n" +
++        if (credits.password.length() > 20 || credits.password.contains(" ") ||
++                !credits.password.equals(credits.confirmPassword) || !isDigitHave) {
++            throw new WrongPasswordException("Длина password должна быть меньше 20 символов, " +
++                    "не должен содержать пробелом и должен содержать хотя бы одну цифру.\n" +
+                     "Также password и confirmPassword должны быть равны.");
+         }
+         return true;
+Index: src/Lesson_10_dop/Credits.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package Lesson_10_dop;\r\n\r\npublic class Credits {\r\n    String login;\r\n    String password;\r\n    String confirmPassword;\r\n\r\n    public Credits(String login, String password, String confirmPassword) {\r\n        this.login = login;\r\n        this.password = password;\r\n        this.confirmPassword = confirmPassword;\r\n    }\r\n\r\n    public String getLogin() {\r\n        return login;\r\n    }\r\n\r\n    public void setLogin(String login) {\r\n        this.login = login;\r\n    }\r\n\r\n    public String getPassword() {\r\n        return password;\r\n    }\r\n\r\n    public void setPassword(String password) {\r\n        this.password = password;\r\n    }\r\n\r\n    public String getConfirmPassword() {\r\n        return confirmPassword;\r\n    }\r\n\r\n    public void setConfirmPassword(String confirmPassword) {\r\n        this.confirmPassword = confirmPassword;\r\n    }\r\n\r\n    @Override\r\n    public String toString() {\r\n        return \"Credits{\" +\r\n                \"login='\" + login + '\\'' +\r\n                \", password='\" + password + '\\'' +\r\n                \", confirmPassword='\" + confirmPassword + '\\'' +\r\n                '}';\r\n    }\r\n}\r\n
+===================================================================
+diff --git a/src/Lesson_10_dop/Credits.java b/src/Lesson_10_dop/Credits.java
+--- a/src/Lesson_10_dop/Credits.java	
++++ b/src/Lesson_10_dop/Credits.java	
+@@ -11,30 +11,6 @@
+         this.confirmPassword = confirmPassword;
+     }
+ 
+-    public String getLogin() {
+-        return login;
+-    }
+-
+-    public void setLogin(String login) {
+-        this.login = login;
+-    }
+-
+-    public String getPassword() {
+-        return password;
+-    }
+-
+-    public void setPassword(String password) {
+-        this.password = password;
+-    }
+-
+-    public String getConfirmPassword() {
+-        return confirmPassword;
+-    }
+-
+-    public void setConfirmPassword(String confirmPassword) {
+-        this.confirmPassword = confirmPassword;
+-    }
+-
+     @Override
+     public String toString() {
+         return "Credits{" +
+Index: src/Test/Logic.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package Test;\r\n\r\nimport java.io.IOException;\r\nimport java.util.Arrays;\r\nimport java.util.Random;\r\nimport java.util.Scanner;\r\n\r\npublic class Logic {\r\n    public static void fillArray(int[] array) {\r\n        Random random = new Random();\r\n        for (int i = 0; i < array.length; i++) {\r\n            array[i] = random.nextInt(3) + 1;\r\n            System.out.println(array[i]);\r\n        }\r\n    }\r\n\r\n    public static int [] buttonPush() throws IOException, InputException {\r\n        Scanner scanner = new Scanner(System.in);\r\n        int[] number = new int[3];\r\n        boolean check = true;\r\n        while (check) {\r\n            int x = scanner.nextInt();\r\n            if (x > 3 || x < 1){\r\n                throw new InputException(\"Ты ввел хуйню\");\r\n            }\r\n            for (int i = 0; i < number.length; i++) {\r\n                if (number[i] == 0) {\r\n                    number[i] = x;\r\n                    break;\r\n                }\r\n            }\r\n            check = checkMassivLanght(number);\r\n        }\r\n        return number;\r\n    }\r\n\r\n//    public static boolean checkFirstMenu(int [] array){\r\n//                boolean haveZero = false;\r\n//                for (int i = 0; i < array.length; i++) {\r\n//                    if (array[i] <= 0) {\r\n//                        System.out.println(\"Я же сказал, сначала второй пункт!!!!\");\r\n//                        haveZero = true;\r\n//                        break;\r\n//                    }\r\n//                }\r\n//                return haveZero;\r\n//    }\r\n\r\n    public static boolean checkMassivLanght(int[] array) {\r\n        boolean check = true;\r\n        int counter = 0;\r\n        for (int i = 0; i < array.length; i++) {\r\n            if (array[i] == 0) {\r\n                counter++;\r\n            }\r\n        }\r\n        if (counter > 0){\r\n            return true;\r\n        } else {\r\n            return false;\r\n        }\r\n    }\r\n    public static boolean compare(int[] array1, int[] array){\r\n        boolean result = Arrays.equals(array, array1);\r\n        return result;\r\n    }\r\n\r\n    public static Question askQustion(Question [] question){\r\n            Random random = new Random();\r\n            return question[random.nextInt(question.length)];\r\n    }\r\n\r\n    public static boolean  userAnswer(Question question, String userAnswer){\r\n        if (question.answer.answerText.toLowerCase().equals(userAnswer.toLowerCase())){\r\n            return true;\r\n        }\r\n        return false;\r\n    }\r\n\r\n    public static int[] podzkazka(int [] array, int counter){\r\n        int [] massPodsk = new int[2];\r\n        if (counter == 0){\r\n            counter++;\r\n            massPodsk[0] = array[0];\r\n            massPodsk[1] = counter;\r\n\r\n            return massPodsk;\r\n\r\n        } if (counter == 1){\r\n            counter++;\r\n            massPodsk[0] = array[1];\r\n            massPodsk[1] = counter;\r\n\r\n            return massPodsk;\r\n\r\n        } if (counter == 2){\r\n            counter++;\r\n            massPodsk[0] = array[2];\r\n            massPodsk[1] = counter;\r\n\r\n            return massPodsk;\r\n        }\r\n        return massPodsk;\r\n    }\r\n}\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n
+===================================================================
+diff --git a/src/Test/Logic.java b/src/Test/Logic.java
+--- a/src/Test/Logic.java	
++++ b/src/Test/Logic.java	
+@@ -9,7 +9,7 @@
+     public static void fillArray(int[] array) {
+         Random random = new Random();
+         for (int i = 0; i < array.length; i++) {
+-            array[i] = random.nextInt(3) + 1;
++            array[i] = random.nextInt(2) + 1;
+             System.out.println(array[i]);
+         }
+     }
+Index: src/Lesson_10/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package Lesson_10;\r\n\r\n/*\r\n1. Написать программу со следующим функционалом:\r\nНа вход передать строку (будем считать, что это номер документа). Номер документа имеет формат xxxx-yyy-xxxx-yyy-xyxy, где x — это число, а y — это буква.\r\n- Вывести на экран в одну строку два первых блока по 4 цифры. - Вывести на экран номер документа, но блоки из трех букв заменить на *** (каждая буква заменятся на *).\r\n- Вывести на экран только одни буквы из номера документа в формате yyy/yyy/y/y в нижнем регистре.\r\n- Вывести на экран буквы из номера документа в формате \"Letters:yyy/yyy/y/y\" в верхнем регистре(реализовать с помощью класса StringBuilder).\r\n- Проверить содержит ли номер документа последовательность abc и вывети сообщение содержит или нет(причем, abc и ABC считается одинаковой последовательностью).\r\n- Проверить начинается ли номер документа с последовательности 555.\r\n- Проверить заканчивается ли номер документа на последовательность 1a2b.\r\nВсе эти методы реализовать в отдельном классе в статических методах, которые на вход (входным параметром) будут принимать вводимую на вход программы строку.\r\n\r\n2. Дана произвольная строка.\r\nВывести на консоль новую строку, в которой продублирована каждая буква из начальной строки.\r\nНапример, \"Hello\" -> \"HHeelllloo\".\r\nДополнительное задание\r\n3. Дана строка произвольной длины с произвольными словами. Найти самое короткое слово в строке и вывести его на экран.\r\n Найти самое длинное слово в строке и вывести его на экран. Если таких слов несколько, то вывести последнее из них.\r\n4. Дана строка произвольной длины с произвольными словами. Найти слово, в котором число различных символов минимально.\r\nСлово может содержать буквы и цифры. Если таких слов несколько, найти первое из них. Например, в строке \"fffff ab f 1234 jkjk\" найденное слово должно быть \"fffff\".\r\n5. Дана строка произвольной длины с произвольными словами. Написать программу для проверки является ли любое выбранное слово в строке палиндромом.\r\nTeachMeSkills.by\r\nНапример, есть строка, вводится число 3, значит необходимо проверить является ли 3-е слово в этой строке палиндромом.\r\nПредусмотреть предупреждающие сообщения на случаи ошибочных ситуаций: например, в строке 5 слов, а на вход программе передали число 500 и т. п. ситуации.\r\n */\r\n\r\npublic class Main {\r\n    public static void main(String[] args) {\r\n\r\n        Stroka stroka = new Stroka(\"14H8-ABBC-7896-MJF-584F\");\r\n\r\n//        Work.split(stroka);\r\n//        System.out.println();\r\n//        Work.charToDisplay(stroka);\r\n//        System.out.println();\r\n//        Work.charsToLowerCase(stroka);\r\n//        System.out.println();\r\n//        Work.charsToUpperCase(stroka);\r\n//        System.out.println();\r\n        try {\r\n            System.out.println(\"Результат поиска последовательности ABC: \" + Work.findCharsABC(stroka));\r\n        } catch (AbcContainsExeption e) {\r\n            System.out.println(e);\r\n        }\r\n        try {\r\n            System.out.println(\"Результат проверки начала документа на последовательность 555: \" + Work.checkFirstBlock(stroka));\r\n        } catch (Contains555Exeption ex){\r\n            System.out.println(ex);\r\n        }\r\n       try {\r\n           System.out.println(\"Результат проверки конца документа на последовательность 1a2b: \" + Work.checkEndBlock(stroka));\r\n       } catch (Contains1a2bExeption ex){\r\n           System.out.println(ex);\r\n       }\r\n//\r\n//        System.out.println();\r\n//        Work.charsDouble(stroka);\r\n//        System.out.println();\r\n//        Work.findMinLenght(stroka);\r\n//        System.out.println();\r\n//        Work.findMaxLenght(stroka);\r\n//        System.out.println();\r\n//        Work.findWord(stroka);\r\n//        System.out.println();\r\n//        System.out.println(Work.isPalindrome(stroka));\r\n    }\r\n}\r\n
+===================================================================
+diff --git a/src/Lesson_10/Main.java b/src/Lesson_10/Main.java
+--- a/src/Lesson_10/Main.java	
++++ b/src/Lesson_10/Main.java	
+@@ -30,18 +30,18 @@
+ 
+         Stroka stroka = new Stroka("14H8-ABBC-7896-MJF-584F");
+ 
+-//        Work.split(stroka);
+-//        System.out.println();
+-//        Work.charToDisplay(stroka);
+-//        System.out.println();
+-//        Work.charsToLowerCase(stroka);
+-//        System.out.println();
+-//        Work.charsToUpperCase(stroka);
+-//        System.out.println();
++        Work.split(stroka);
++        System.out.println();
++        Work.charToDisplay(stroka);
++        System.out.println();
++        Work.charsToLowerCase(stroka);
++        System.out.println();
++        Work.charsToUpperCase(stroka);
++        System.out.println();
+         try {
+             System.out.println("Результат поиска последовательности ABC: " + Work.findCharsABC(stroka));
+-        } catch (AbcContainsExeption e) {
+-            System.out.println(e);
++        } catch (AbcContainsExeption ex) {
++            System.out.println(ex);
+         }
+         try {
+             System.out.println("Результат проверки начала документа на последовательность 555: " + Work.checkFirstBlock(stroka));
+@@ -53,16 +53,15 @@
+        } catch (Contains1a2bExeption ex){
+            System.out.println(ex);
+        }
+-//
+-//        System.out.println();
+-//        Work.charsDouble(stroka);
+-//        System.out.println();
+-//        Work.findMinLenght(stroka);
+-//        System.out.println();
+-//        Work.findMaxLenght(stroka);
+-//        System.out.println();
+-//        Work.findWord(stroka);
+-//        System.out.println();
+-//        System.out.println(Work.isPalindrome(stroka));
++        System.out.println();
++        Work.charsDouble(stroka);
++        System.out.println();
++        Work.findMinLenght(stroka);
++        System.out.println();
++        Work.findMaxLenght(stroka);
++        System.out.println();
++        Work.findWord(stroka);
++        System.out.println();
++        System.out.println(Work.isPalindrome(stroka));
+     }
+ }
