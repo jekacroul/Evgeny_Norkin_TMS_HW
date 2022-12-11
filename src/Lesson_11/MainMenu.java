@@ -25,8 +25,8 @@ public class MainMenu {
                 case 2:
                     try {
                         Documents.writeInformationIntoFile();
-                    } catch (IOException ex){
-                        System.out.println(ex);
+                    } catch (IOException e) {
+                        throw new RuntimeException(e);
                     }
                     break;
                 case 3:
