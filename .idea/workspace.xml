@@ -6,10 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="28a4185e-a814-46cf-8f60-80acce358aa3" name="Changes" comment="HW Done.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Evgeny_Norkin_TMS_HW/Lesson_10/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Evgeny_Norkin_TMS_HW/Lesson_10/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Evgeny_Norkin_TMS_HW/Lesson_10/Work.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Evgeny_Norkin_TMS_HW/Lesson_10/Work.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_10/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson_10/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_10/Work.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson_10/Work.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NotValid.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NotValid.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson_11/Documents.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson_11/Documents.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson_11/MainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson_11/MainMenu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +23,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Lesson_10" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -55,7 +59,7 @@
       <recent name="C:\Users\norki\IdeaProjects\Evgeny_Norkin_TMS_HW\src\Lesson_10" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Lesson_10_dop.Main">
+  <component name="RunManager" selected="Application.Lesson_11.Main">
     <configuration name="Lesson_10_dop.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lesson_10_dop.Main" />
       <module name="Evgeny_Norkin_TMS_HW" />
@@ -69,12 +73,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lesson_8_dop.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson_8_dop.Main" />
+    <configuration name="Lesson_11.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson_11.Main" />
       <module name="Evgeny_Norkin_TMS_HW" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson_8_dop.*" />
+          <option name="PATTERN" value="Lesson_11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lesson_11.Main" />
         <item itemvalue="Application.Lesson_10_dop.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Test.Main" />
         <item itemvalue="Application.Work" />
-        <item itemvalue="Application.Lesson_8_dop.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -154,6 +158,13 @@
       <workItem from="1670406772040" duration="10387000" />
       <workItem from="1670480066495" duration="1973000" />
       <workItem from="1670482073776" duration="5316000" />
+      <workItem from="1670660987134" duration="7389000" />
+      <workItem from="1670675423143" duration="581000" />
+      <workItem from="1670681094556" duration="2576000" />
+      <workItem from="1670703859763" duration="855000" />
+      <workItem from="1670746410939" duration="5846000" />
+      <workItem from="1670759724045" duration="4240000" />
+      <workItem from="1670790149912" duration="3211000" />
     </task>
     <task id="LOCAL-00001" summary="HW Done.">
       <created>1670262313510</created>
@@ -162,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670262313510</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="HW Done.">
+      <created>1670762769955</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1670762769955</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
