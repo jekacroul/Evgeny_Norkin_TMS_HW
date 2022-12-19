@@ -9,10 +9,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_09_12_2022_17_00__Changes_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_09_12_2022_17_00__Changes_1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_16_11_2022_12_31__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_16_11_2022_12_31__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Documents.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Documents.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NotValid.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Evgeny_Norkin_TMS_HW/Lesson_11/Documents.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Evgeny_Norkin_TMS_HW/Lesson_11/Documents.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Evgeny_Norkin_TMS_HW/Lesson_11/MainMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Evgeny_Norkin_TMS_HW/Lesson_11/MainMenu.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +62,7 @@
       <recent name="C:\Users\norki\IdeaProjects\Evgeny_Norkin_TMS_HW\src\Lesson_13" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Lesson_13.Main">
+  <component name="RunManager" selected="Application.Lesson_14.Main">
     <configuration name="Lesson_10_dop.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lesson_10_dop.Main" />
       <module name="Evgeny_Norkin_TMS_HW" />
@@ -106,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson_10.Main" />
+    <configuration name="Lesson_14.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson_14.Main" />
       <module name="Evgeny_Norkin_TMS_HW" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson_10.*" />
+          <option name="PATTERN" value="Lesson_14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lesson_14.Main" />
         <item itemvalue="Application.Lesson_13.Main" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.Lesson_11.Main" />
         <item itemvalue="Application.Lesson_10_dop.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
