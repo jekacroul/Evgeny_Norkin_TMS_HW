@@ -7,7 +7,6 @@ public class Calculator {
     static HashMap<Integer, Integer> arabicNum = new HashMap<>();
     static HashMap<Integer, String> romeNum = new HashMap<>();
     static Scanner scanner = new Scanner(System.in);
-
     private static void fillingRomeNum() {
         if (romeNum.isEmpty()) {
             romeNum.put(1, "I");
