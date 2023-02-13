@@ -1,11 +1,10 @@
 package Lesson_21;
 import java.io.*;
-import java.util.ArrayList;
-import java.util.Scanner;
+import java.util.*;
 
-    public class PersonReader {
+public class PersonReader {
         static Scanner sc = new Scanner(System.in);
-        static ArrayList<String> arr = new ArrayList<>();
+        static List<Person> arr = new ArrayList<>();
 
         public static void reader() {
             try {
@@ -14,8 +13,13 @@ import java.util.Scanner;
                 BufferedReader bufferedReader = new BufferedReader(reader);
                 String i;
                 while ((i = bufferedReader.readLine()) != null) {
-                    System.out.print(i + "\n");
-                    arr.add(i);
+                    String array[] = i.split(",");
+                    Person person = new Person();
+                    person.setName(array[0].trim());
+                    person.setSoname(array[1].trim());
+                    person.setSex(array[2].trim());
+                    person.setAge(Integer.valueOf(array[3]));
+                    arr.add(person);
                 }
                 sortPerson();
             } catch (FileNotFoundException ex){
@@ -26,12 +30,12 @@ import java.util.Scanner;
         }
 
         private static void sortPerson() throws IOException {
-            arr.sort((str1, str2) -> str1.compareTo(str2));
+            arr.sort(new Compare());
             writeSortedPerson();
-
         }
 
         private static void writeSortedPerson() {
+
             try {
                 Writer writer = new FileWriter("Person");
                 BufferedWriter bufferedWriter = new BufferedWriter(writer);
@@ -39,17 +43,18 @@ import java.util.Scanner;
                     bufferedWriter.write(arr.get(i) + "\n");
                 }
                 bufferedWriter.close();
-            } catch (IOException ex){
+            }
+            catch (IOException ex){
                 throw new RuntimeException();
             }
         }
 
         public static void count() {
-            Long count = arr.stream().filter(Age -> Integer.parseInt(Age.split(",")[3]) > 30).count();
+            Long count = arr.stream().filter(Age -> Age.getAge() > 30).count();
             System.out.println("Количество людей с возрастом больше 30:" + count);
-            Long countOfMale = arr.stream().filter(Male -> Male.split(",")[2].equals("male")).count();
+            Long countOfMale = arr.stream().filter(Male -> Male.getSex().equals("male")).count();
             System.out.println("Количество мужчин: " + countOfMale);
-            Long countOfFamel = arr.stream().filter(Male -> Male.split(",")[2].equals("female")).count();
+            Long countOfFamel = arr.stream().filter(Male -> Male.getSex().equals("female")).count();
             System.out.println("Количество женщин: " + countOfFamel);
         }
     }
