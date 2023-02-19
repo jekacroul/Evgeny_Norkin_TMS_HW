@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28a4185e-a814-46cf-8f60-80acce358aa3" name="Changes" comment="HW 21 done.">
+    <list default="true" id="28a4185e-a814-46cf-8f60-80acce358aa3" name="Changes" comment="Bugs fixed.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Person" beforeDir="false" afterPath="$PROJECT_DIR$/Person" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Evgeny_Norkin_TMS_HW/Lesson_21/PersonReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Evgeny_Norkin_TMS_HW/Lesson_21/PersonReader.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Lesson_21/PersonReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson_21/PersonReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson_22/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson_22/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,20 +70,7 @@
       <recent name="C:\Users\norki\IdeaProjects\Evgeny_Norkin_TMS_HW\src\Lesson_13" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Lesson_21.Main">
-    <configuration name="Lesson_14.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson_14.Main" />
-      <module name="Evgeny_Norkin_TMS_HW" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lesson_14.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Lesson_22.Main">
     <configuration name="Lesson_17.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lesson_17.Main" />
       <module name="Evgeny_Norkin_TMS_HW" />
@@ -101,6 +90,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Lesson_21.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lesson_22.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson_22.Main" />
+      <module name="Evgeny_Norkin_TMS_HW" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson_22.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lesson_22.Main" />
         <item itemvalue="Application.Lesson_21.Main" />
         <item itemvalue="Application.Lesson_17.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.RomanArabianCalc" />
-        <item itemvalue="Application.Lesson_14.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -184,7 +186,8 @@
       <workItem from="1673794888830" duration="11658000" />
       <workItem from="1676288998756" duration="529000" />
       <workItem from="1676301831498" duration="1059000" />
-      <workItem from="1676319368125" duration="1676000" />
+      <workItem from="1676319368125" duration="2132000" />
+      <workItem from="1676812400405" duration="2134000" />
     </task>
     <task id="LOCAL-00001" summary="HW Done.">
       <created>1670262313510</created>
@@ -214,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676206241444</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Bugs fixed.">
+      <created>1676321144861</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1676321144861</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,7 +244,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="HW Done." />
     <MESSAGE value="HW 21 done." />
-    <option name="LAST_COMMIT_MESSAGE" value="HW 21 done." />
+    <MESSAGE value="Bugs fixed." />
+    <option name="LAST_COMMIT_MESSAGE" value="Bugs fixed." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
